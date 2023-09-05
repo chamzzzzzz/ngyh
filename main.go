@@ -43,9 +43,10 @@ func main() {
 
 	err = os.WriteFile("records.json", b, 0644)
 	if err != nil {
-		fmt.Printf("write file error: %v\n", err)
+		fmt.Printf("write record file error: %v\n", err)
 		return
 	}
+	fmt.Printf("write record file success!\n")
 }
 
 func getURLs() ([]string, error) {
