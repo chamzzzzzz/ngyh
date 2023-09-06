@@ -46,7 +46,7 @@ func main() {
 		fmt.Printf("write record file error: %v\n", err)
 		return
 	}
-	fmt.Printf("write record file success\n")
+	fmt.Printf("write record file success!!\n")
 }
 
 func getURLs() ([]string, error) {
